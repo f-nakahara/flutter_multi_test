@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_multi_test/data/datasource/counter_datasource.dart';
-import 'package:flutter_multi_test/presentation/view/page/counter_page.dart';
+import 'package:flutter_multi_test/presentation/view/page/home_page.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 Future<void> main() async {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CounterPage(),
+      home: HomePage(),
     );
   }
 }
